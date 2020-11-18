@@ -1,5 +1,3 @@
-gsap.registerPlugin(GSDevTools, SplitText);
-
 const hoverBox = document.getElementById("hoverBox");
 const hoverMe = document.getElementById("hoverme");
 
@@ -135,6 +133,3 @@ window.addEventListener("load", () => {
     }
   });
 });
-
-//GSAP DevTool
-// GSDevTools.create({animation:AnimationTL, globalSync:false});
