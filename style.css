@@ -1,276 +1,64 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
-:root {
-  --size: 150;
-  --unit: calc((var(--size) / 1366) * 1vmin);
-  --background: #e4e4e4;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body,
-html {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--background);
-}
-
-.loader {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 200%;
-  height: 100%;
-  z-index: 9999;
-}
-.loader:nth-child(1) {
-  background: #d5d5d5;
-}
-
-.loader {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 200%;
-  height: 100%;
-  z-index: 9999;
-}
-.loader:nth-child(2) {
-  background: #c5c5c5;
-}
-
-.loader {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 200%;
-  height: 100%;
-  z-index: 9999;
-}
-.loader:nth-child(3) {
-  background: #b6b6b6;
-}
-
-.loader {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 200%;
-  height: 100%;
-  z-index: 9999;
-}
-.loader:nth-child(4) {
-  background: #a7a7a7;
-}
-
-.collage-container {
-  position: relative;
-  min-width: calc(1366 * var(--unit));
-  height: calc(768 * var(--unit));
-}
-.collage-container #collage {
-  width: 100%;
-}
-.collage-container #collage .sanko {
-  opacity: 0.8;
-  position: absolute;
-  width: 100%;
-}
-.collage-container #collage #feather_1 {
-  position: absolute;
-  top: 19%;
-  left: 35%;
-  width: calc(100 * var(--unit));
-}
-.collage-container #collage #feather_2 {
-  position: absolute;
-  top: 62%;
-  left: 24.5%;
-  width: calc(208 * var(--unit));
-}
-.collage-container #collage #feather_3 {
-  position: absolute;
-  top: 22%;
-  left: 22.5%;
-  width: calc(208 * var(--unit));
-}
-.collage-container #collage #feather_4 {
-  position: absolute;
-  top: 63%;
-  left: 20.5%;
-  width: calc(208 * var(--unit));
-}
-.collage-container #collage #feather_5 {
-  position: absolute;
-  top: 16%;
-  left: 30.5%;
-  width: calc(150 * var(--unit));
-}
-.collage-container #collage #bird {
-  position: absolute;
-  top: 24.5%;
-  left: 38.4%;
-  width: calc(590 * var(--unit));
-}
-.collage-container #collage #left-branch {
-  position: absolute;
-  top: 41.5%;
-  left: 16.5%;
-  width: calc(350 * var(--unit));
-}
-.collage-container #collage #left-pine {
-  position: absolute;
-  top: 30.5%;
-  left: 11.5%;
-  width: calc(520 * var(--unit));
-}
-.collage-container #collage #center-branch {
-  position: absolute;
-  top: 26%;
-  left: 35.5%;
-  width: calc(140 * var(--unit));
-  transform-origin: 90% bottom;
-  transform: rotate(20deg);
-}
-.collage-container #collage #center-branch-big {
-  position: absolute;
-  top: 31%;
-  left: 41%;
-  width: calc(300 * var(--unit));
-}
-.collage-container #collage #red_mi {
-  position: absolute;
-  top: 57%;
-  left: 48%;
-  width: calc(160 * var(--unit));
-}
-.collage-container #collage #leaf_1 {
-  position: absolute;
-  top: 40.5%;
-  left: 31.5%;
-  width: calc(220 * var(--unit));
-}
-.collage-container #collage #leaf_2 {
-  position: absolute;
-  top: 62.5%;
-  left: 41.5%;
-  width: calc(160 * var(--unit));
-}
-.collage-container #collage #leaf_3 {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  width: calc(260 * var(--unit));
-}
-.collage-container #collage #leaf_4 {
-  position: absolute;
-  top: 56%;
-  left: 35%;
-  width: calc(180 * var(--unit));
-}
-.collage-container #collage #right-pine-big {
-  position: absolute;
-  top: 22.5%;
-  left: 49.5%;
-  width: calc(400 * var(--unit));
-}
-.collage-container #collage #right-pine-small {
-  position: absolute;
-  top: 54.5%;
-  left: 63.5%;
-  width: calc(210 * var(--unit));
-}
-.collage-container #collage .top-branch-container {
-  position: absolute;
-  width: calc(540 * var(--unit));
-  height: calc(200 * var(--unit));
-  top: 4.5%;
-  left: 34.5%;
-}
-.collage-container #collage .top-branch-container #top-branch-cover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: var(--background);
-}
-.collage-container #collage #top-branch-branch {
-  position: absolute;
-  width: calc(540 * var(--unit));
-}
-.collage-container #collage #top-branch-f1 {
-  position: absolute;
-  top: 17.5%;
-  left: 50.5%;
-  width: calc(60 * var(--unit));
-}
-.collage-container #collage #top-branch-f2 {
-  position: absolute;
-  top: 19.5%;
-  left: 58.5%;
-  width: calc(73 * var(--unit));
-}
-.collage-container #collage #top-branch-f3 {
-  position: absolute;
-  top: 22.5%;
-  left: 62.1%;
-  width: calc(73 * var(--unit));
-}
-.collage-container #collage #letter-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 200%;
-  text-align: center;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
-}
-.collage-container #collage #letter-container #letter {
-  width: 100%;
-  color: #fffbf2;
-  font-weight: bold;
-  font-size: calc(270 * var(--unit));
-  font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
-  filter: drop-shadow(calc(5 * var(--unit)) calc(5 * var(--unit)) calc(5 * var(--unit)) rgba(0, 0, 0, 0.2));
-}
-.collage-container #collage #hoverme {
-  position: absolute;
-  top: 45%;
-  left: 55%;
-  font-style: italic;
-  font-size: calc(13 * var(--unit));
-  font-family: 'Playfair Display', serif;
-  color: #505050;
-  animation: hoverme 1.3s infinite alternate;
-}
-.collage-container #collage #hoverme::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -100%;
-  width: calc(40 * var(--unit));
-  height: calc(1 * var(--unit));
-  background: #505050;
-}
-.collage-container #collage #hoverBox {
-  display: block;
-  position: absolute;
-  top: 25%;
-  left: 40%;
-  width: calc(120 * var(--unit));
-  height: calc(280 * var(--unit));
-  z-index: 999;
-}
-
-@keyframes hoverme {
-  0% {
-    opacity: 0;
+  .back {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation-name: backdiv;
+    animation-duration: 1s;
+    animation-iteration-count: infinite
   }
-  100% {
-    opacity: 1;
+
+  .heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+    animation-name: beat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite
   }
-}
+  .heart:after {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart:before {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+
+  @keyframes backdiv {
+    50% {
+      background: #ffe6f2;
+    }
+  }
+
+  @keyframes beat {
+    0% {
+      transform: scale(1) rotate(-45deg);
+    }
+    50% {
+      transform: scale(0.6) rotate(-45deg);
+    }
+  }
