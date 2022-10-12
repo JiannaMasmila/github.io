@@ -1,6 +1,6 @@
-[submodule "another-portfolio"]
-	path = another-portfolio
-	url = https://github.com/milkshakegum/another-portfolio
+[submodule "fork-to-use-for-portfolio"]
+	path = fork-to-use-for-portfolio
+	url = https://github.com/milkshakegum/fork-to-use-for-portfolio
 [submodule "Portfolio-v0.0.2"]
 	path = Portfolio-v0.0.2
 	url = https://github.com/milkshakegum/Portfolio-v0.0.2
