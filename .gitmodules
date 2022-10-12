@@ -10,3 +10,6 @@
 [submodule "Portfolio-Starter-Cara"]
 	path = Portfolio-Starter-Cara
 	url = https://github.com/milkshakegum/Portfolio-Starter-Cara
+[submodule "Portfolio-glass-blog"]
+	path = Portfolio-glass-blog
+	url = https://github.com/milkshakegum/Portfolio-glass-blog
