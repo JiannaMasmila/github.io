@@ -7,3 +7,6 @@
 [submodule "Portfolio-notion-cms"]
 	path = Portfolio-notion-cms
 	url = https://github.com/milkshakegum/Portfolio-notion-cms
+[submodule "Portfolio-Starter-Cara"]
+	path = Portfolio-Starter-Cara
+	url = https://github.com/milkshakegum/Portfolio-Starter-Cara
