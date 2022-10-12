@@ -4,6 +4,6 @@
 [submodule "Portfolio-v0.0.2"]
 	path = Portfolio-v0.0.2
 	url = https://github.com/milkshakegum/Portfolio-v0.0.2
-[submodule "portfolio-notion-cms"]
-	path = portfolio-notion-cms
-	url = https://github.com/milkshakegum/portfolio-notion-cms
+[submodule "Portfolio-notion-cms"]
+	path = Portfolio-notion-cms
+	url = https://github.com/milkshakegum/Portfolio-notion-cms
