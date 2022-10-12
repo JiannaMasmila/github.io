@@ -1,6 +1,9 @@
 [submodule "another-portfolio"]
 	path = another-portfolio
 	url = https://github.com/milkshakegum/another-portfolio
-[submodule "semaphore-demo-flutter2"]
-	path = semaphore-demo-flutter2
-	url = https://github.com/semaphoreci-demos/semaphore-demo-flutter2
+[submodule "Portfolio-v0.0.2"]
+	path = Portfolio-v0.0.2
+	url = https://github.com/milkshakegum/Portfolio-v0.0.2
+[submodule "portfolio-notion-cms"]
+	path = portfolio-notion-cms
+	url = https://github.com/milkshakegum/portfolio-notion-cms
